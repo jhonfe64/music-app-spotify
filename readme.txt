@@ -44,6 +44,10 @@ Frontend
 
 
 
+![](https://github.com/jhonfe64/React-gifs-app/blob/master/music1.jpg?raw=true)
+![](https://github.com/jhonfe64/React-gifs-app/blob/master/music2.jpg?raw=true)
+
+
 
 
 
