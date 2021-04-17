@@ -1,10 +1,4 @@
 
-
-1. descargue el archivo comprimido
-2. descomprimalo con el programa de su preferencia
-3. Abra la carpeta music_app con el editor de codigo, de preferencia VSC
-
-4. Encontrará dos carpetas una llamada backend y otra frontend
 5. Para inicalizar el front abra una nueva terminal en vsc (ctrl+ñ)
 
 copie los siguientes comandos: 
@@ -49,21 +43,6 @@ Frontend
   - Axios
 
 
-## Consideraciones
-
-1. Segun el Documento las busquedad no se deberian autenticar, sin embargo todos los endpoints estan protegidos y fue necesario autenticar al usuario primero para obtener el 
-   token y poder realizar la consulta
-2. Lastimosamente por ahora no manejo aplicaciones de testeo, por  lo que no pude cumplir ese requerimiento.
-3. la configuracion del backend incluye un archivo de configuracion del servidor en
-   backend/server/config en caso de que otra aplicación este usando el puerto lo pude cambiar
-   en dicho archivo
-4. las rutas y el controlador que las maneja estan en archivos diferentes
-   backend/src/controllers/search.js
-   backend/routes/index
-
-
-Gracias por tener en cuenta mi aplicación, Feliz día.
-   
 
 
 
