@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    height: 100vh;
+}
+
+body {
+    overflow-x: hidden;
+   background-color:#ecf0f1 !important;
+   padding-bottom: 100px;
+   width: 100%;
+}
+
+#welcomeMessage{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url('./images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#welcomeMessage .messageCard {
+    width: 30%;
+    margin-top: -200px;
+    background-color: rgba(0, 0, 0, .4);
+    border-radius: 20px;
+}
+
+
+.cardSongs{
+    width: 250px;
+}
+
+.cardSongs .popularity {
+    opacity: 0;
+    border-radius: 0px 0px 15px 0px;
+}
+
+.cardSongs:hover {
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .3);
+    border: none;
+    transition: .2s;
+}
+
+.cardSongs:hover h6.popularity{
+    opacity: 1;
+    transition: .5s;
+}
+
+.cardSongs  h5 {
+    clear: both;
+    display: inline-block;
+    white-space: nowrap;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;  
+    text-overflow: ellipsis;
+}
+
+#playButton {
+    fill: grey;
+    width: 150px;
+}
+
+
+
+@media only screen and (max-width: 1250px) {
+    #welcomeMessage .messageCard {
+        width: 80%;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    #welcomeMessage .messageCard {
+        width: 100%;
+        border-radius: 0;
+    }
+  }
+
+  @media only screen and (max-width: 530px) {
+    .cardSongs{
+        width: 100%;
+    }
+  }
