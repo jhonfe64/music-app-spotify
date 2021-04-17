@@ -1,6 +1,6 @@
 # music-app-spotify
 
-
+esta aplicacion construida en nodejs y react permite a los usuarios acceder a spotify y buscar sus canciones favoritas mediante la api de spotify.
 
 5. Para inicalizar el front abra una nueva terminal en vsc (ctrl+ñ)
 
